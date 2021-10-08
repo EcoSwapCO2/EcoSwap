@@ -1,0 +1,27 @@
+NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
+
+ACCOUNTS=[
+"GA557OSTRPOUUTXKPQWHUZN4LRS46SBWTNTYRPFZRF3IBUDT3IK6UJQJ"
+]
+VERSION="2.0.0"
+
+[DOCUMENTATION]
+ORG_NAME="IXINIUM"
+ORG_URL="https://www.IXINIUM.org"
+ORG_DESCRIPTION="Ixinium XXA is a digital token native to Stellar blockchain. Ixinium XXA is backed with gold, silver, palladium, and platinum. Cryptocurrency XXA is backed by the Ixinium Foundation's precious metal holdings, blockchain transparency, and auditable transactions. "
+ORG_TWITTER="@IXINIUM"
+ORG_LOGO="https://i.ibb.co/kyfV76S/ixinium.jpg"
+ORG_OFFICIAL_EMAIL="IXXINIUM@gmail.com"
+
+
+[[CURRENCIES]]
+code="IxiniumCash"
+issuer="GA557OSTRPOUUTXKPQWHUZN4LRS46SBWTNTYRPFZRF3IBUDT3IK6UJQJ"
+anchor_asset="false"
+name="IxiniumCash"
+desc="Ixinium XXA is a digital token native to Stellar blockchain. Ixinium XXA is backed with gold, silver, palladium, and platinum. Cryptocurrency XXA is backed by the Ixinium Foundation's precious metal holdings, blockchain transparency, and auditable transactions. "
+image="https://i.ibb.co/kyfV76S/ixinium.jpg"
+fixed_number=1000000000
+max_number=1000000000
+is_unlimited=false
+#IxiniumCash was issued using the open and inclusive Stellar blockchain network.
