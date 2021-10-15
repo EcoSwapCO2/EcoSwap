@@ -1,27 +1,40 @@
 NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
 
 ACCOUNTS=[
-"GA557OSTRPOUUTXKPQWHUZN4LRS46SBWTNTYRPFZRF3IBUDT3IK6UJQJ"
+"GAKMT64LMAWM3RY3HZ54PFYVF5YECSMMMSLMXRQ5ZJTOTZNVMBJIOAFX"
 ]
 VERSION="2.0.0"
 
 [DOCUMENTATION]
-ORG_NAME="IXINIUM"
-ORG_URL="https://www.IXINIUM.org"
-ORG_DESCRIPTION="Ixinium XXA is a digital token native to Stellar blockchain. Ixinium XXA is backed with gold, silver, palladium, and platinum. Cryptocurrency XXA is backed by the Ixinium Foundation's precious metal holdings, blockchain transparency, and auditable transactions. "
-ORG_TWITTER="@IXINIUM"
-ORG_LOGO="https://i.ibb.co/kyfV76S/ixinium.jpg"
-ORG_OFFICIAL_EMAIL="IXXINIUM@gmail.com"
+ORG_NAME="EcoSwap"
+ORG_URL="https://ecoswapco2.com/"
+ORG_DESCRIPTION=""
+ORG_TWITTER="@"
+ORG_LOGO="https://i.ibb.co/zFr8PF1/about-image.jpg"
+ORG_OFFICIAL_EMAIL="https://ecoswapco2.com/"
 
 
 [[CURRENCIES]]
-code="IxiniumCash"
-issuer="GA557OSTRPOUUTXKPQWHUZN4LRS46SBWTNTYRPFZRF3IBUDT3IK6UJQJ"
-anchor_asset="false"
-name="IxiniumCash"
-desc="Ixinium XXA is a digital token native to Stellar blockchain. Ixinium XXA is backed with gold, silver, palladium, and platinum. Cryptocurrency XXA is backed by the Ixinium Foundation's precious metal holdings, blockchain transparency, and auditable transactions. "
-image="https://i.ibb.co/kyfV76S/ixinium.jpg"
-fixed_number=1000000000
-max_number=1000000000
+code="co2s"
+issuer="GAKMT64LMAWM3RY3HZ54PFYVF5YECSMMMSLMXRQ5ZJTOTZNVMBJIOAFX"
+anchor_asset="ENGO"
+name="CO2Storage"
+desc="Carbon capture or also called CO₂ storage is a highly effective solution to global warming with a very low carbon footprint and the ability to precisely report how much CO₂ is removed. Direct air capture technology catches carbon dioxide directly from the air; removing unavoidable and historic CO₂ emissions. Main goal is to inspire everyone to remove carbon dioxide from the air to stop global warming."
+image="https://i.ibb.co/1bt5Gng/co2.jpg"
+fixed_number=1000000
+max_number=1000000
 is_unlimited=false
-#IxiniumCash was issued using the open and inclusive Stellar blockchain network.
+#CO2Storage was issued using the open and inclusive Stellar blockchain network.
+
+
+[[CURRENCIES]]
+code="ecov"
+issuer="GA557OSTRPOUUTXKPQWHUZN4LRS46SBWTNTYRPFZRF3IBUDT3IK6UJQJ"
+anchor_asset="ENGO"
+name="EcoVortex"
+desc="This technology uses no blades, getting energy from wind through oscillation without gears, brakes nor oil. Its design makes it a nice alternative for a greener on-site generation."
+image="https://i.ibb.co/p3xWTPB/photo-2021-10-15-11-03-38.jpg"
+fixed_number=1000000
+max_number=1000000
+is_unlimited=false
+#EcoVortex was issued using the open and inclusive Stellar blockchain network.
