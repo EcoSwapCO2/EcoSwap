@@ -1,7 +1,8 @@
 NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
 
 ACCOUNTS=[
-"GAKMT64LMAWM3RY3HZ54PFYVF5YECSMMMSLMXRQ5ZJTOTZNVMBJIOAFX"
+"GAKMT64LMAWM3RY3HZ54PFYVF5YECSMMMSLMXRQ5ZJTOTZNVMBJIOAFX",
+"GBK7ARRU6A7T2RYQSUF27B774QPNG762QGQU6FMUDXQ3NXNXFEWZUQMZ"
 ]
 VERSION="2.0.0"
 
@@ -29,7 +30,7 @@ is_unlimited=false
 
 [[CURRENCIES]]
 code="ecov"
-issuer="GA557OSTRPOUUTXKPQWHUZN4LRS46SBWTNTYRPFZRF3IBUDT3IK6UJQJ"
+issuer="GBK7ARRU6A7T2RYQSUF27B774QPNG762QGQU6FMUDXQ3NXNXFEWZUQMZ"
 anchor_asset="ENGO"
 name="EcoVortex"
 desc="This technology uses no blades, getting energy from wind through oscillation without gears, brakes nor oil. Its design makes it a nice alternative for a greener on-site generation."
